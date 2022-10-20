@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>IMC</title>
+</head>
+<body> 
+    
+    <div class="container">
+        <h1 class="titulo">Indice De Masa Corporal</h1>
+        
+        <form id="lista-presupuesto" >
+        
+            <div class="form-group">
+                <label for="nombre" class="form-control">Nombre</label>
+                <input id="nombre" class="form-control2" type="text" >
+            </div>
+        
+            <div class="form-group">
+                <label for="peso" class="form-control">Peso (Libra)</label>
+                <input id="peso" class="form-control2" type="text" placeholder="">
+            </div>
+
+            <div class="form-group">
+                <label for="Altura" class="form-control">Altura (Pies)</label>
+                <input id="altura" class="form-control2" type="text" placeholder="" >
+            </div>
+
+         
+
+            <input type="submit" value="Calcular" class="btn" onclick="btn.onclick">
+
+        </form>
+
+                <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="mostrar-resulotado"></div>
+            </div>
+        
+        </div>   
+
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
